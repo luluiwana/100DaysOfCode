@@ -1,0 +1,84 @@
+body{
+    background: #f1c40f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#card{
+    background-color: white;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 15px;
+    min-height: 500px;
+}
+h1{
+    color: #2c3e50;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+#btn_adopt{
+    border: none;
+    background-color: #c0392b;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+img{
+    width: 50%;
+    border-radius: 10px;
+}
+.cats{
+    display: flex;
+    flex-wrap: wrap;  
+    place-content: center;
+}
+.gallery{
+    height: 200px;
+    width: 47%;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+}
+@media only screen and (min-width:768px){
+    .gallery{
+        width: 23%;
+    }
+}
+#feline{
+    display: flex;
+    margin: auto;
+    width: 68px;
+    margin-top: -3rem;
+    margin-bottom: -1rem;
+}
+/* loading animation */
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #ffb300 transparent #ffb300 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
